@@ -50,8 +50,8 @@
   transition: 0.4s;
 }
 .product-img {
-  width: 100%;
-  height: auto;
+  width: 250px;
+  height: 300px;
   margin-bottom: 0.5rem;
 }
 
