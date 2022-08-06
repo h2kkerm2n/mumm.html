@@ -41,6 +41,8 @@
 }
 .product-box {
   position: relative;
+  width: 50%;
+  height: auto;
 }
 .product-box:hover {
   padding: 10px;
@@ -52,8 +54,17 @@
   height: auto;
   margin-bottom: 0.5rem;
 }
+
+.item-picture {
+  width: 200px;
+  height: auto;
+}
 .product-title #cart-icon {
   font-size: 1.2rem;
+  cursor: pointer;
+}
+
+#cart-icon {
   cursor: pointer;
 }
 .product-title {
@@ -81,7 +92,7 @@
 .cart {
   position: fixed;
   top: 0;
-  right: 0;
+  right: -100%;
   width: 360px;
   min-height: 100vh;
   padding: 20px;
@@ -133,6 +144,13 @@
   font-size: 24px;
   color: var(--main-color);
   cursor: pointer;
+  float: right;
+}
+.bxs-trash-alt {
+  font-size: 25px;
+  top: 260px;
+  right: 90px;
+  position: absolute;
 }
 .total {
   display: flex;
