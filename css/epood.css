@@ -10,7 +10,7 @@
   list-style: none;
   text-decoration: none;
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1080px) {
   .container-fluid img {
     display: block;
     margin-left: auto;
@@ -51,8 +51,8 @@
   transition: 0.4s;
 }
 .product-img {
-  width: 100%;
-  height: auto;
+  width: 250px;
+  height: 300px;
   margin-bottom: 0.5rem;
 }
 /* idle kehtib #  ja class on .*/
@@ -234,3 +234,4 @@ body {
 .icons {
   font-size: 1.8rem;
 }
+/* breakpoints / making responsive */
